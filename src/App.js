@@ -1,28 +1,16 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import "./App.test";
 
-function App() {
-  return (
-    <div className="App">
-      <footer>
-        "aqui é o inicio"
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          texto da pagina
-        </a>
-      </header>
-      </footer>
+
+  
+    <div><footer>"começo"</footer>,
+    <header> <legend>"corpo do texto"</legend></header>,
+    <body><p>'nao sei onde fica espero descobrir'</p></body>,
+    console.log("ainda nao funciona");
     </div>
-  );
-}
+    
+export default App()
+        
 
-export default App;
+     
